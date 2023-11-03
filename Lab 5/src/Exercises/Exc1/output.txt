@@ -1,0 +1,26 @@
+Thread B waiting for S
+Thread B acquired S
+Thread B waiting for R
+Thread B acquired R
+Thread A waiting for R
+Thread B released R
+Thread B released S
+Thread A acquired R
+Thread A waiting for S
+Thread A acquired S
+Thread B waiting for S
+Thread A released S
+Thread B acquired S
+Thread A released R
+Thread B waiting for R
+Thread B acquired R
+Thread B released R
+Thread B released S
+Thread A waiting for R
+Thread A acquired R
+Thread B waiting for S
+Thread B acquired S
+Thread B waiting for R
+Thread A waiting for S
+
+Process finished with exit code 130

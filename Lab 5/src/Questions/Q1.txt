@@ -1,0 +1,1 @@
+Both race conditions and deadlocks involve threads accessing shared resources, and both require specific timing to occur. However, race conditions involve a single resource and result in inaccurate information, while deadlocks require multiple resources and result in the program stalling (i.e. no information)
