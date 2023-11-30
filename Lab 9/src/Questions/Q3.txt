@@ -1,0 +1,9 @@
+Results from Exp3.ParallelPi.java:
+    Value of pi: 3.141592653589923
+    Calculated in 47 milliseconds
+
+Results from Exc1.MultiParallelPi.java:
+    Value of pi: 3.1415926535896697
+    Calculated in 31 milliseconds
+
+The 4-thread solution is faster than the 2-thread solution

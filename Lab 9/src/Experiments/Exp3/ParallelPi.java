@@ -35,7 +35,7 @@ public class ParallelPi extends Thread {
     }
 
 
-    static int numSteps = 1000000;
+    static int numSteps = 10000000;
 
     static double step = 1.0 / (double) numSteps;
 
