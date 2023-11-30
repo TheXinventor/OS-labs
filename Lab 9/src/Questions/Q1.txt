@@ -1,0 +1,14 @@
+Results from Exp3.SequentialPi.java:
+    Value of pi: 3.141592653589731
+    Calculated in 79 milliseconds
+
+Results from Exp3.ParallelPi.java:
+    Value of pi: 3.141592653589923
+    Calculated in 46 milliseconds
+
+Parallel Speedup = Sequential time/Parallel time
+    = 79/46
+    = 1.717391304...
+    ~ 1.717
+
+The parallel speedup is close to 2 because the parallel solution splits the problem into 2 threads, each with half the inputs - and thus processing time - of the sequential solution. However, it is actually slightly less than 2, as creating the threads requires an extra overhead of processing time in the parallel solution.

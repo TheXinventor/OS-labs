@@ -1,0 +1,32 @@
+numSteps = 1000000 (1 million):
+
+    Results from Exp3.SequentialPi.java:
+        Value of pi: 3.1415926535897643
+        Calculated in 16 milliseconds
+
+    Results from Exp3.ParallelPi.java:
+        Value of pi: 3.1415926535898993
+        Calculated in 15 milliseconds
+    Note: Results varied between runs
+
+    Parallel Speedup = Sequential time/Parallel time
+        = 16/15
+        = 1.066666667...
+        ~ 1.067
+
+numSteps = 1000000000 (1 billion):
+
+    Results from Exp3.SequentialPi.java:
+        Value of pi: 3.1415926535899708
+        Calculated in 7820 milliseconds
+
+    Results from Exp3.ParallelPi.java:
+        Value of pi: 3.141592653589901
+        Calculated in 2791 milliseconds
+
+    Parallel Speedup = Sequential time/Parallel time
+        = 7820/2791
+        = 2.801863131...
+        ~ 2.802
+
+Parallel speedup is proportional to number of steps. This is because as the number of steps and total processing time increases, the overhead of creating the threads remains constant - therefore taking up a smaller portion of the total processing time.
